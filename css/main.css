@@ -1,0 +1,37 @@
+@media screen and (min-width: 641px) {
+  .column {
+    width: 25%;
+    float: left;
+  }
+  .column-1 {
+    background-color: pink;
+  }
+  .column-2 {
+    background-color: red;
+  }
+  .column-3 {
+    display: none;
+  }
+  .column-4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .column {
+    width: 100%;
+    float: none;
+  }
+  .column-1 {
+    background-color: blue;
+  }
+  .column-2 {
+    background-color: purple;
+  }
+  .column-3 {
+    background-color: grey;
+  }
+  .column-4 {
+    background-color: brown;
+  }
+}
